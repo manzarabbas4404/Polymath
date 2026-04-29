@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'Polymath.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'admin',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
+        'NAME': 'ai_rag_db',
+        'USER': 'admin',
+        'PASSWORD': 'admin',
         'HOST': 'localhost',
         'PORT': '5432',
     }
